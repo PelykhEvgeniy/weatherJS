@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WEATHERJS</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__top">
+                <form class="header__form">
+                    <label class="header__form-label" for="weather">Напишите город, чтобы узнать погоду:</label>
+                        <input class="header__form-input" id="weather" type="text" name="" placeholder="Город">
+                            <button class="header__form-btn" type="submit">УЗНАТЬ ПОГОДУ</button>
+                    </form>
+                </div>
+            </div>
+    </header>
+<main class="main">
+    <section class="section-card">
+        <div class="container section-card-container">
+            <div class="section__bottom">
+                <div class="section__bottom-city">
+                    <div class="name-city"> Название города:<br> <span class="sity"></span></div>
+                </div>
+              
+                <div class="section__bottom-temp"> 
+                    <div class="icon">
+                    <img class="img">
+                </div>
+                    Температура
+                    <div class="section__bottom-temp-c"></div>                     
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
